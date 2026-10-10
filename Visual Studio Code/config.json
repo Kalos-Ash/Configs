@@ -1,0 +1,115 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "top",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "JetBrainsMonoNL NFM Regular",
+    "editor.fontSize": 14.8,
+    "editor.lineHeight": 1.69,
+    "editor.letterSpacing": -0.2,
+    "editor.fontWeight": "normal",
+    "html.autoClosingTags": false,
+    "explorer.confirmDelete": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingComments": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "html.autoCreateQuotes": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "editor.suggestOnTriggerCharacters": false,
+    "workbench.editor.empty.hint": "hidden",
+    "zenMode.centerLayout": false,
+    "git.autoRepositoryDetection": false,
+    "codesnap.containerPadding": "0.4em",
+    "workbench.startupEditor": "none",
+    "editor.allowVariableLineHeights": false,
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.colorCustomizations": {
+        "sideBar.border": "#2f2f2f47",
+        "panel.border": "#2f2f2f47",
+        "titleBar.border": "#2f2f2f47",
+        "editorGroupHeader.tabsBorder": "#2f2f2f47", 
+        "tab.border": "#2f2f2f47", 
+        "tab.activeBorder": "#2f2f2f47", 
+        "tab.activeBorderTop": "#00000000",
+        "sideBarSectionHeader.border": "#2f2f2f47",
+        "sideBarTitle.border": "#2f2f2f47",
+        "editorGroupHeader.border": "#2f2f2f47",
+        "statusBar.border": "#2f2f2f47",
+        // "statusBarItem.remoteBackground": "#00000000",
+        // "statusBarItem.remoteForeground": "#cecdc3",
+    },
+    "window.title": "${activeEditorShort} - ${folderName}",
+    "editor.wordWrapColumn": 130,
+    "editor.wordWrap": "on",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.fullScreen": false,
+    "terminal.integrated.initialHint": false,
+    "chat.titleBar.signIn.enabled": false,
+    "workbench.browser.showInTitleBar": true,
+    "window.commandCenter": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "chat.disableAIFeatures": true,
+    "workbench.settings.showAISearchToggle": false,
+    "window.menuStyle": "custom",
+    "workbench.tree.renderIndentGuides": "always",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "terminal-git-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "git.autofetch": true,
+    "scm.diffDecorations": "none",
+    "update.showReleaseNotes": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "workbench.browser.searchEngine": "google",
+    "workbench.browser.dataStorage": "ephemeral",
+    "workbench.colorTheme": "August - Kanagawa (Darker)",
+    "workbench.preferredDarkColorTheme": "August - Kanagawa (Darker)",
+    // Disable Italics and bold letters.
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "storage",
+                    "storage.type",
+                    "keyword.control",
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "parameter": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+            }
+        }
+    },
+    "workbench.statusBar.visible": true,
+    "workbench.layoutControl.enabled": false,
+}
